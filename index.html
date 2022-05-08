@@ -543,10 +543,10 @@
                       </svg>
                       </div>
 </div>
-      <label class="modal-label">Комментарий
-    <textarea name="modal-comment"
-    placeholder="Введите текст"></textarea>
-    </label>
+      <label class="modal-label" for="user-comment">Комментарий</label>
+    <textarea name="user-comment" id="user-comment" 
+    placeholder="Введите текст" class="modal-comment"></textarea>
+    
     
      <div class="modal-check">
        <input
@@ -561,10 +561,9 @@
                         <use
                           href="./css/images/symbol-defs.svg#icon-Vector31"
                         ></use>
-                      </svg></span>Соглашаюсь с рассылкой и принимаю
-       <span  class="contract">
-         <a href="" class="contract">Условия договора</a>
-        </span>  
+                      </svg></span> Соглашаюсь с рассылкой и принимаю 
+                     &nbsp;
+                        <a href="" class="contract">Условия договора</a>
       </label>
       </div>  
   <button type="submit" class="form-btn">Отправить</button>
