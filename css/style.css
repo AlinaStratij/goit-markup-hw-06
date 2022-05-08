@@ -763,7 +763,9 @@ border-radius: 4px;
   fill: var(--hover-color);
 }
 
-.form-btn{ 
+.form-btn{
+  margin: 0 auto;
+  display: block;
 width: 200px;
 height: 50px;
 
@@ -777,6 +779,10 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
+  }
+  .form-btn:hover,
+  .form-btn:focus{
+    background: #188CE8;
   }
 
   .modal-label{
@@ -909,13 +915,15 @@ cursor: pointer;
     color: rgba(255, 255, 255, 0.6);
   }
   
-  .form-btndubl{
-    display: inline-block;
+ 
+  
+  .modal-check{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  
   
   
   
